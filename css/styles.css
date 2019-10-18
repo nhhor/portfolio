@@ -34,7 +34,6 @@ p {
 }
 
 .boxContact {
-  /* border: 1px inset; */
   text-align: center;
   background-color: rgba(0,165,255,1);
   margin-bottom: 10px;
@@ -50,6 +49,9 @@ p {
 .boxProjects {
   text-align: center;
   background-color: rgba(0,110,202,1);
+  padding-top: 3%;
+
+  padding-bottom: 10%;
   margin-bottom: 10px;
   border-radius: 20% / 20%;
 }
@@ -69,14 +71,11 @@ p {
 }
 
 .boxPic {
-  /* text-align: center; */
-  /* background-color: rgba(128,210,255,1); */
   margin-left: auto;
   background-image: url(../img/aboutMePic.jpg);
   background-size: contain;
   background-position: center;
   border-radius: 100% / 100%;
-  /* width: auto; */
   height: 100%;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -97,12 +96,8 @@ p {
 }
 
 .card-body {
-  background-image: linear-gradient(rgba(0,165,255,1) 1%, rgba(130,138,149,1) 35%, rgba(130,138,149,1) 65%, rgba(0,165,255,1) 99%);
-
+  background-image: linear-gradient(rgba(0,165,255,1) 1%, rgba(130,138,149,1) 20%, rgba(130,138,149,1) 80%, rgba(0,165,255,1) 99%);
 }
-
-
-
 
 .card-footer {
   text-align:center;
@@ -111,9 +106,22 @@ p {
   padding-bottom: 0px;
 }
 
-
 .nav-item {
+  /* width: 150px; */
   font-size: 12px;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.navItemModified {
+  width: 200px;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 2;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 3;
+  }
 }
