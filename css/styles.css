@@ -1,38 +1,48 @@
+/* COLOR PALLET START
+  Roman Silver (background)
+    828a95
+    rgba(130,138,149,1)
+  True Blue
+    006eca
+    rgba(0,110,202,1)
+  Vivid Cerulean
+    00a5ff
+    rgba(0,165,255,1)
+  Pale Cyan
+    80d2ff
+    rgba(128,210,255,1)
+  Blanched Almond
+    fcecc9
+    rgba(252,236,201,1)
+COLOR PALLET END */
+
 body {
-  background-color: grey;
+  background-color: rgba(130,138,149,1);
 }
 
 p {
   color: blue;
 }
 
-
-
-.container {
-
-}
-
 .row {
-  /* background-color: blue;
-  margin-left: auto;
-  margin-right: auto; */
+  margin-bottom: 1%;
 }
 
-.col-lg-8 {
+.boxMain {
   border: 1px dashed;
   text-align: center;
-  background-color: white;
+  background-color: rgba(130,138,149,1);
 }
 
 .boxContact {
   border: 1px inset;
   text-align: center;
-  background-color: green;
+  background-color: rgba(255,255,255,.25);
 }
 
 .boxPic {
   border: 1px inset;
   text-align: center;
-  background-color: green;
+  background-color: rgba(255,255,255,.25);
   padding-left: 1%;
 }
