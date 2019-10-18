@@ -42,15 +42,16 @@ p {
   border-radius: 20% / 20%;
 }
 
+.boxContact li {
+  text-align: left;
+  list-style: circle;
+}
+
 .boxProjects {
   text-align: center;
   background-color: rgba(0,110,202,1);
   margin-bottom: 10px;
   border-radius: 20% / 20%;
-}
-
-.boxContact li {
-  list-style: none;
 }
 
 .boxAbout {
