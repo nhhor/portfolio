@@ -30,40 +30,43 @@ p {
   margin-bottom: 10px;
 }
 
-.boxBody {
-  position: relative;
-}
-
 .boxContact {
   /* border: 1px inset; */
   text-align: center;
   background-color: rgba(0,165,255,1);
   margin-bottom: 10px;
   margin-right: auto;
-
 }
 
 .boxProjects {
-  /* border: 1px dashed; */
   text-align: center;
   background-color: rgba(0,110,202,1);
   margin-bottom: 10px;
 }
 
 .boxAbout {
-  /* border: 1px dashed; */
   text-align: center;
   background-color: rgba(0,165,255,1);
   margin-bottom: 10px;
 }
 
 .boxPic {
-  /* border: 1px inset; */
   text-align: center;
-  background-color: rgba(128,210,255,1);
+  /* background-color: rgba(128,210,255,1); */
   margin-bottom: 10px;
   margin-left: auto;
+  background-image: url(../img/aboutMePic.jpg);
+  width: 100%;
+  height: auto;
 }
+
+/* #aboutMePic {
+  background-size: 150px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  color: pink;
+} */
 
 .boxFooter {
   text-align: center;
