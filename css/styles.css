@@ -27,34 +27,39 @@ p {
 
 .boxTitle {
   background-color: rgba(0,110,202,1);
-}
-
-.row {
-  /* background-color: rgba(130,138,149,1); */
-  margin-bottom: 1%;
+  margin-bottom: 10px;
 }
 
 .boxContact {
-  float: left;
-  border: 1px inset;
+  /* border: 1px inset; */
   text-align: center;
   background-color: rgba(0,165,255,1);
-  margin-bottom: 1%;
+  margin-bottom: 10px;
 }
 
-.boxMain {
-  border: 1px dashed;
+.boxProjects {
+  /* border: 1px dashed; */
   text-align: center;
-  /* background-color: rgba(0,110,202,1); */
-  margin-bottom: 1%;
+  background-color: rgba(0,110,202,1);
+  margin-bottom: 10px;
 }
 
-
+.boxAbout {
+  /* border: 1px dashed; */
+  text-align: center;
+  background-color: rgba(0,165,255,1);
+  margin-bottom: 10px;
+}
 
 .boxPic {
-  border: 1px inset;
+  /* border: 1px inset; */
   text-align: center;
   background-color: rgba(128,210,255,1);
-  padding-left: 1%;
-  margin-bottom: 1%;
+  margin-bottom: 10px;
+}
+
+.boxFooter {
+  text-align: center;
+  background-color: rgba(128,210,255,1);
+  margin-bottom: 10px;
 }
