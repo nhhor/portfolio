@@ -30,11 +30,17 @@ p {
   margin-bottom: 10px;
 }
 
+.boxBody {
+  position: relative;
+}
+
 .boxContact {
   /* border: 1px inset; */
   text-align: center;
   background-color: rgba(0,165,255,1);
   margin-bottom: 10px;
+  margin-right: auto;
+
 }
 
 .boxProjects {
@@ -56,6 +62,7 @@ p {
   text-align: center;
   background-color: rgba(128,210,255,1);
   margin-bottom: 10px;
+  margin-left: auto;
 }
 
 .boxFooter {
