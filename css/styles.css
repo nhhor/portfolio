@@ -26,8 +26,11 @@ p {
 }
 
 .boxTitle {
+  text-align: center;
   background-color: rgba(0,110,202,1);
   margin-bottom: 10px;
+  border-radius: 20% / 20%;
+
 }
 
 .boxContact {
@@ -36,23 +39,31 @@ p {
   background-color: rgba(0,165,255,1);
   margin-bottom: 10px;
   margin-right: auto;
+  border-radius: 20% / 20%;
 }
 
 .boxProjects {
   text-align: center;
   background-color: rgba(0,110,202,1);
   margin-bottom: 10px;
+  border-radius: 20% / 20%;
+}
+
+.boxContact li {
+  list-style: none;
 }
 
 .boxAbout {
   text-align: center;
   background-color: rgba(0,165,255,1);
   margin-bottom: 10px;
+  border-radius: 20% / 20%;
 }
 
 .boxPicContainer {
   /* background-image: linear-gradient(to right, rgba(255,0,0,.5), rgba(255,0,0,1),  rgba(255,0,0,.5)); */
-  background-image: radial-gradient(rgba(0,110,202,1) 25%, rgba(130,138,149,1) 70%);
+  background-image: radial-gradient(rgba(0,110,202,1) 35%, rgba(130,138,149,1) 70%);
+  margin-left: auto;
   margin-bottom: 10px;
 }
 
@@ -63,7 +74,7 @@ p {
   background-image: url(../img/aboutMePic.jpg);
   background-size: contain;
   background-position: center;
-  border-radius: 100%;
+  border-radius: 100% / 100%;
   /* width: auto; */
   height: 100%;
   overflow: hidden;
@@ -75,4 +86,5 @@ p {
   text-align: center;
   background-color: rgba(128,210,255,1);
   margin-bottom: 10px;
+  border-radius: 20% / 20%;
 }
