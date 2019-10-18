@@ -1,19 +1,19 @@
 /* COLOR PALLET START
   Roman Silver (background)
     828a95
-    rgba(130,138,149,1)
+    background-color: rgba(130,138,149,1);
   True Blue
     006eca
-    rgba(0,110,202,1)
+    background-color: rgba(0,110,202,1);
   Vivid Cerulean
     00a5ff
-    rgba(0,165,255,1)
+    background-color: rgba(0,165,255,1);
   Pale Cyan
     80d2ff
-    rgba(128,210,255,1)
+    background-color: rgba(128,210,255,1);
   Blanched Almond
     fcecc9
-    rgba(252,236,201,1)
+    background-color: rgba(252,236,201,1);
 COLOR PALLET END */
 
 body {
@@ -21,28 +21,40 @@ body {
 }
 
 p {
-  color: blue;
+  color: rgba(252,236,201,1);
+  font-family: sans-serif;
+}
+
+.boxTitle {
+  background-color: rgba(0,110,202,1);
 }
 
 .row {
+  /* background-color: rgba(130,138,149,1); */
+  margin-bottom: 1%;
+}
+
+.boxContact {
+  float: left;
+  border: 1px inset;
+  text-align: center;
+  background-color: rgba(0,165,255,1);
   margin-bottom: 1%;
 }
 
 .boxMain {
   border: 1px dashed;
   text-align: center;
-  background-color: rgba(130,138,149,1);
+  /* background-color: rgba(0,110,202,1); */
+  margin-bottom: 1%;
 }
 
-.boxContact {
-  border: 1px inset;
-  text-align: center;
-  background-color: rgba(255,255,255,.25);
-}
+
 
 .boxPic {
   border: 1px inset;
   text-align: center;
-  background-color: rgba(255,255,255,.25);
+  background-color: rgba(128,210,255,1);
   padding-left: 1%;
+  margin-bottom: 1%;
 }
