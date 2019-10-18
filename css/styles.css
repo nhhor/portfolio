@@ -90,13 +90,30 @@ p {
   border-radius: 20% / 20%;
 }
 
+.card-header {
+  background-color: rgba(0,165,255,1);
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.card-body {
+  background-image: linear-gradient(rgba(0,165,255,1) 1%, rgba(130,138,149,1) 35%, rgba(130,138,149,1) 65%, rgba(0,165,255,1) 99%);
+
+}
 
 
-.card-columns {
-  @include media-breakpoint-only(lg) {
-    column-count: 4;
-  }
-  @include media-breakpoint-only(xl) {
-    column-count: 5;
-  }
+
+
+.card-footer {
+  text-align:center;
+  background-color: rgba(0,165,255,1);
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+.nav-item {
+  font-size: 12px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
