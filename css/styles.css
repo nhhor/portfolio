@@ -21,7 +21,7 @@ body {
 }
 
 p {
-  color: rgba(252,236,201,1);
+  color: rgba(0,0,0,1);
   font-family: sans-serif;
 }
 
@@ -36,13 +36,30 @@ p {
 .boxContact {
   text-align: center;
   background-color: rgba(0,165,255,1);
-  padding-top: 10px;
+  height: auto;
   margin-bottom: 10px;
   margin-right: auto;
   border-radius: 10% / 10%;
+  /* height: 500px; */
+  /* line-height: 500px; */
 }
 
+
+.verticalAlign1 {
+  display: flex;
+  height: 100%;
+}
+
+.verticalAlign2 {
+  margin: auto;
+
+}
+
+
+
 .boxContact ul {
+  display: block;
+  vertical-align: middle;
   padding-right: 10px;
   padding-left: 0px;
   font-size: 12px;
@@ -89,6 +106,7 @@ p {
 .boxFooter {
   text-align: center;
   background-color: rgba(128,210,255,1);
+  padding-top: 10px;
   margin-bottom: 10px;
   border-radius: 20% / 20%;
 }
@@ -104,12 +122,12 @@ p {
 }
 
 .card-body {
-  background-image: linear-gradient(rgba(0,165,255,1) 1%, rgba(130,138,149,1) 10%, rgba(130,138,149,1) 90%, rgba(0,165,255,1) 99%);
+  background-image: linear-gradient(rgba(0,165,255,1) 1%, rgba(130,138,149,1) 10%, rgba(130,138,149,1) 90%, rgba(128,210,255,1) 99%);
 }
 
 .card-footer {
   text-align:center;
-  background-color: rgba(0,165,255,1);
+  background-color: rgba(128,210,255,1);
   padding-top: 0px;
   padding-bottom: 5px;
 }
