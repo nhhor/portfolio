@@ -10,10 +10,10 @@ _This project represents the coding Portfolio of Noah Horwitz_
 
 ## Setup/Installation Requirements
 
-* _Click the clone or download button and copy the link_
-* _open your terminal and type "git clone (link)"_
-* _Double click on the Pet-web folder_
-* _Double click on pet-web.html to open the file in a web browser_
+* _Click the clone or download button and copy the link._
+* _open your terminal and type "git clone (link)"._
+* _Double click on the portfolio folder._
+* _Double click on index.html to open the file in the web browser of your chosing._
 
 
 ## Known Bugs
@@ -22,7 +22,7 @@ _None_
 
 ## Support and contact details
 
-_Contact Example@sample.com_
+_Contact [example@sample.com](mailto:example@sample.com)_
 
 ## Technologies Used
 
