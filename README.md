@@ -7,6 +7,8 @@
 ## Description:
 This project represents the developer portfolio for Noah Horwitz. I am currently a student at _[Epicodus](http://www.epicodus.com)_, a vocational school for technology careers, based in Portland, OR. My studies are focused on JavaScript, Ruby-on-Rails, and React.
 
+The GH-Pages site is located [HERE](https://nhhor.github.io/portfolio).
+
 ## Setup/Installation instructions:
 * Click the `Clone or download` button and copy the link.
 * Open your terminal application (assuming GIT Scripts have been installed on your system) and type `git clone (link)`.
