@@ -1,33 +1,28 @@
-# _Portfolio of Noah Horwitz_
+# Application: **The Portfolio of Noah Horwitz**
 
-#### _The Portfolio of Noah Horwitz, 2019-10-18_
+##### By Noah Horwitz
 
-#### By _**Noah Horwitz**_
+###### _First published 2019-10-18_
 
-## Description
+## Description:
+This project represents the developer portfolio for Noah Horwitz. I am currently a student at _[Epicodus](http://www.epicodus.com)_, a vocational school for technology careers, based in Portland, OR. My studies are focused on JavaScript, Ruby-on-Rails, and React.
 
-_This project represents the coding Portfolio of Noah Horwitz_
-
-## Setup/Installation Requirements
-
-* _Click the clone or download button and copy the link._
-* _open your terminal and type "git clone (link)"._
-* _Double click on the portfolio folder._
-* _Double click on index.html to open the file in the web browser of your chosing._
-
-
-## Known Bugs
-
-_None_
-
-## Support and contact details
-
-_Contact [example@sample.com](mailto:example@sample.com)_
+## Setup/Installation instructions:
+* Click the `Clone or download` button and copy the link.
+* Open your terminal application (assuming GIT Scripts have been installed on your system) and type `git clone (link)`.
+* Double click on newly created "portfolio" folder.
+* Double click on "index.html" to open the file in the web browser of your chosing.
 
 ## Technologies Used
+> `HTML`
+> `CSS`
+> `Bootstrap`
 
-_HTML, CSS, bootstrap_
+## Known Bugs
+None
 
-### License
+## Support and contact details
+Contact [example@sample.com](mailto:example@sample.com)
 
-*This This repository is copyright (C) 2019 by Noah Horwitz and licensed under the GNU General Public License v3.0 [gpl-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)*
+## License
+_This This repository is copyright (C) 2019 by Noah Horwitz and licensed under the GNU General Public License v3.0 [gpl-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)_
