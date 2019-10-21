@@ -164,3 +164,40 @@ a {
   font-style: oblique;
   text-decoration: underline;
 }
+
+
+.easterEgg {
+  display: none;
+}
+
+/* Extra Small Devices, Phones */
+ @media (max-width: 768px) {
+   .easterEgg {
+     display: block;
+     align-items: center;
+   }
+   .easterEgg p {
+     color: rgba(252,236,201,1);
+   }
+ }
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) {
+  .easterEgg {
+    display: none;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media (min-width: 992px) {
+  .easterEgg {
+    display: none;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media (min-width: 1200px) {
+  .easterEgg {
+    display: none;
+  }
+}
