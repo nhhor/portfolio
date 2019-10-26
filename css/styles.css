@@ -17,12 +17,10 @@
 COLOR PALLET END */
 
 body {
-  background-image: url(../img/fireworks.jpg);
+  background-attachment: fixed;
+  background-image: url(../img/jupiter-bt.jpg);
   background-size: cover;
   background-position: center;
-  height: 100%;
-  background-repeat: no-repeat;
-  /* background-color: rgba(130,138,149,1); */
 }
 
 h1 {
@@ -93,6 +91,28 @@ a {
   border-radius: 10% / 10%;
 }
 
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e6e6e6;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #828a95;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 5px;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+table td a {
+  color: #000000;
+}
+
+
 .boxAbout {
   text-align: center;
   background-color: rgba(0,165,255,.9);
@@ -122,7 +142,7 @@ a {
 
 .boxFooter {
   text-align: center;
-  background-color: rgba(128,210,255,.7);
+  background-image: linear-gradient(to right, rgba(255,0,0,0.75), rgba(255,202,128,0.75));
   padding-top: 10px;
   margin-bottom: 10px;
   border-radius: 20% / 20%;
